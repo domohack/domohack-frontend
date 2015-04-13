@@ -1,5 +1,5 @@
 define(
-["backbone", "underscore", "models/connectedObject"], 
+["backbone", "underscore", "frontend/models/connectedObject"], 
 function(Backbone, _, ConnectedObjectModel) {
 	
 	var ConnectedObjectCollection = Backbone.Collection.extend({
